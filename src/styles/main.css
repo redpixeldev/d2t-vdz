@@ -5,9 +5,11 @@
 @theme {
 	--font-*: initial;
 	--font-heading: sans-serif;
-	--font-body: sans-serif;
+	--font-body: proxima-nova, sans-serif;
 
-	--color-brand-primary: ;
+	--color-brand-orange: #eb5336;
+	--color-brand-gray: #ebebeb;
+	--color-brand-gray-dark: #32383b;
 }
 
 @utility container {
@@ -23,7 +25,7 @@
 }
 
 @utility btn-primary {
-	@apply bg-brand-primary text-white;
+	@apply bg-brand-orange text-white;
 }
 
 @layer base {
