@@ -4,7 +4,7 @@
 
 @theme {
 	--font-*: initial;
-	--font-heading: sans-serif;
+	--font-heading: minion-pro, sans-serif;
 	--font-body: proxima-nova, sans-serif;
 
 	--color-brand-orange: #eb5336;
