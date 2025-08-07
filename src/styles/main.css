@@ -36,4 +36,8 @@
 	[x-cloak] {
 		@apply hidden!;
 	}
+
+	.rich-text {
+		@apply prose max-w-full prose-p:text-white prose-p:text-sm;
+	}
 }
