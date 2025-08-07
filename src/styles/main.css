@@ -38,6 +38,6 @@
 	}
 
 	.rich-text {
-		@apply prose max-w-full prose-p:text-white prose-p:text-sm;
+		@apply prose max-w-full prose-p:text-white prose-p:text-sm prose-h4:font-semibold prose-h4:text-lg prose-h4:text-brand-orange;
 	}
 }
