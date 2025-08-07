@@ -1,0 +1,116 @@
+---
+import Layout from '@layouts/Layout.astro';
+import Header from '@components/Header.astro';
+import Footer from '@components/Footer.astro';
+---
+
+<Layout title='About'>
+	<Header />
+	<div class="bg-white py-12 relative">
+		<h1 class="text-center mx-4 text-3xl md:text-4xl font-black text-brand-orange pb-12">Over ons</h1>
+		<div class="bg-brand-orange py-6 relative">
+			<div class="container">
+				<div class="md:w-1/2 lg:w-2/5">
+					<h3 class="font-black text-white text-2xl">Een doordachte aanpak</h3>
+					<div class="rich-text">
+						<p>Bij VDZ is iedere opdracht maatwerk. Uw noden en verwachtingen zijn de basis voor alles wat eruit volgt. Bij ons heeft u niet te maken met standaardpakketten maar wel met oplossingen op maat. We stellen zorgvuldig het pakket samen dat de bedrijfsvoering naar een hoger niveau tilt.
+						</p>
+						<p>Ons doel? Een lange termijnrelatie uitbouwen met uw bedrijf. Het team van VDZ denkt actief mee naar de meest efficiënte en resultaatgerichte oplossingen op maat van uw bedrijf. Zo geniet u steeds van de beste oplossing voor uw industriële elektriciteit en automatisatie binnen uw bedrijf.</p>
+					</div>
+					<a href="/" class="inline-flex font-black text-lg/[26px] text-white border-2 border-white p-[2px] rounded-full hover:text-black btn">
+						<span class="bg-transparent border border-white block rounded-full px-3">mere over onze werkwijse</span>
+					</a>
+				</div>
+			</div>
+			<div class="xl:mr-14 h-64 sm:h-90 md:h-104 xl:h-90 w-full md:w-[45%] lg:w-1/2 xl:w-[40%] md:absolute md:right-4 xl:right-20 md:top-1/2 md:-translate-y-1/2 px-4 md:px-0 mt-8 md:mt-0">
+				<img src="/img/about-hero.jpeg" class="rounded-3xl sm:rounded-4xl object-cover object-[50%_38%] w-full h-full" alt="">
+			</div>
+		</div>
+	</div>
+	<div class="mb-8 bg-brand-gray">
+		<div class="container xl:pb-5 pt-8">
+			<h3 class="text-2xl font-black text-brand-orange relative z-20">Plan van aanpak</h3>
+			<div class="py-6 lg:py-8 flex flex-col md:flex-row gap-3 md:gap-12 items-center relative">
+				<img src="/img/shape-preliminary-study.png" class="hidden md:block md:absolute -top-17 lg:-top-16 -left-4 xl:-left-11 h-29 w-auto" alt="">
+				<div class="w-full md:w-3/5 lg:w-2/3 relative z-20">
+					<div class="bg-brand-orange rounded-full px-5 py-1 inline-block min-w-80 sm:min-w-96">
+						<h4 class="text-xl font-medium text-white">01 Voorstudie + analyse</h4>
+					</div>
+					<div class="prose-p:text-black rich-text">
+						<p>We gaan van start met een behoefteanalyse en luisteren naar de noden en verwachtingen van uw bedrijf. Wat wilt u bereiken? Waar wilt u met uw bedrijf naartoe? Bij het opstarten van nieuwe bedrijfsactiviteiten of het invoeren van grote veranderingen is het van primordiaal belang om een duidelijk zicht te hebben op de gewenste doelstellingen.</p>
+						<p>Uw huidige situatie nemen we graag onder de loep en brengen we nauwkeurig in beeld. Wat is er reeds aanwezig qua elektrische voorzieningen en/of installaties?
+						Wat kunnen we behouden en wat moeten we vervangen? Welke consequenties brengt dit zowel praktisch als budgettair met zich mee?</p>
+						<p>Bij VDZ gaan we op basis van deze denkoefening en analyse een basis opzetten voor een gedetailleerd voorstel en een plan van aanpak. </p>
+					</div>
+				</div>
+				<img src="/img/preliminary-study.jpg" class="w-full md:w-2/5 lg:w-1/3 h-52 rounded-xl object-cover" alt="">
+			</div>
+			<div class="py-6 lg:py-8 flex flex-col-reverse md:flex-row gap-3 md:gap-8 lg:gap-12 items-center lg:w-4/5 mx-auto relative">
+				<img src="/img/shape-design.png" class="hidden md:block md:absolute top-1 md:top-2 xl:top-7 -right-8 sm:-right-24 md:-right-44 xl:-right-60 h-6 xl:min-w-[690px]" alt="">
+				<img src="/img/design.jpg" class="w-full md:w-2/5 h-52 rounded-xl object-cover" alt="">
+				<div class="w-full md:w-3/5 relative z-20">
+					<div class="bg-brand-orange rounded-full px-5 py-1 inline-block min-w-80 sm:min-w-96">
+						<h4 class="text-xl font-medium text-white">02 Ontwerp</h4>
+					</div>
+					<div class="prose-p:text-black rich-text">
+						<p>Nadat het voorstel een goedkeuring mag genieten, zetten we de tekenaars van onze interne engineeringsafdeling in. Alle ontwerpen worden steeds opgezet in EPLAN.</p>
+						<p>Deze technische tekeningen geven steeds een duidelijk & transparant overzicht van hoe de borden en/of installaties uitgebouwd dienen te worden.</p>
+					</div>
+				</div>
+			</div>
+			<div class="py-6 lg:py-8 flex flex-col md:flex-row gap-3 md:gap-12 items-center lg:w-5/6 relative">
+				<img src="/img/shape-execution.png" class="hidden md:block md:absolute -top-96 lg:-top-94 -left-10 xl:-left-25 h-[430px] w-auto xl:w-25" alt="">
+				<div class="w-full md:w-3/5 relative z-20">
+					<div class="bg-brand-orange rounded-full px-5 py-1 inline-block min-w-80 sm:min-w-96">
+						<h4 class="text-xl font-medium text-white">03 Uitvoering - bouw - programmatie</h4>
+					</div>
+					<div class="prose-p:text-black rich-text">
+						<p>De ontwerpen van onze engineeringsafdeling vertrekken naar onze ateliers waar onze eigen technici aan de slag gaan met de uitbouw van uw vermogens- en stuurborden. Alle componenten worden zorgvuldig opgebouwd en samengesteld volgens de noden van het ontwerp. We werken alle borden en installaties af met de meest hoogwaardige producten en met de hoogste afwerkingsgraad zodat we u de beste kwaliteit kunnen garanderen.</p>
+						<p>Gelijktijdig met de bordenbouw werken onze programmeurs de software uit. Dit houdt in dat de logische sturing vertaald wordt naar een programmacyclus. Om uw proces visueel beter weer te geven, wordt een SCADA ontwikkeld. Dit vormt de bedienings- en controlesoftware voor de operator van de productie. Wij maken SCADA’s voor zowel pc’s als touchpanels. De SCADA’s op pc worden gemaakt met behulp van een in-house ontwikkelde software D-Flex. Ook met Middleware kunnen we u verder helpen.</p>
+					</div>
+				</div>
+				<img src="/img/execution.jpg" class="w-full md:w-2/5 h-52 rounded-xl object-cover" alt="">
+			</div>
+			<div class="py-6 lg:py-8 flex flex-col-reverse md:flex-row gap-3 md:gap-8 lg:gap-12 items-center lg:w-4/5 mx-auto relative">
+				<img src="/img/shape-installation.png" class="hidden md:block md:absolute top-0 left-8 sm:-left-24 md:-left-52 xl:-left-94 h-11 w-auto" alt="">
+				<img src="/img/Installation.jpg" class="w-full md:w-2/5 h-52 rounded-xl object-cover object-[50%_30%]" alt="">
+				<div class="w-full md:w-3/5 relative z-20">
+					<div class="bg-brand-orange rounded-full px-5 py-1 inline-block min-w-80 sm:min-w-96">
+						<h4 class="text-xl font-medium text-white">04 Installatie + integratie</h4>
+					</div>
+					<div class="prose-p:text-black rich-text">
+						<p>Nadat de nodige borden en componenten uitgebouwd zijn, zorgt ons eigen team van professionele technici voor de installatie ter plaatse. Met de nodige precisie worden deze geïntegreerd of aangesloten op de reeds bestaande systemen. Tegelijk proberen we zo weinig mogelijk overlast te creëren.</p>
+						<p>Dankzij onze jarenlange ervaring kan ons team zorgeloos samenwerken met de IT-diensten om uw automatiseringsproject met uw bedrijfsnetwerk te koppelen. Dit geheel conform de laatste security-regels. </p>
+					</div>
+				</div>
+			</div>
+			<div class="py-6 lg:py-8 flex flex-col md:flex-row gap-3 md:gap-12 items-center lg:w-5/6 relative">
+				<img src="/img/shape-test.png" class="hidden md:block md:absolute top-1 md:top-2 xl:top-4 2xl:top-5 -right-8 sm:-right-17 lg:-right-49 xl:-right-91 2xl:-right-112 h-10 min-w-[800px] lg:min-w-[1020px] xl:min-w-[1400px] 2xl:min-w-[1700px]" alt="">
+				<div class="w-full md:w-3/5 relative z-20">
+					<div class="bg-brand-orange rounded-full px-5 py-1 inline-block min-w-80 sm:min-w-96">
+						<h4 class="text-xl font-medium text-white">05 Controle + test</h4>
+					</div>
+					<div class="prose-p:text-black rich-text">
+						<p>We voorzien voldoende tests tijdens de opstartfase om een goede werking op lange termijn te garanderen. We volgen de opstart in de werking van zeer dichtbij op en simuleren zo diverse scenario’s.</p>
+						<p>Eens we zeker zijn van een optimale werking, worden de schema’s afgegeven aan de technische verantwoordelijken. Tot slot wordt het volledige technische dossier overhandigd.</p>
+					</div>
+				</div>
+				<img src="/img/test.jpg" class="w-full md:w-2/5 h-52 rounded-xl object-cover z-20" alt="">
+			</div>
+			<div class="py-6 lg:py-8 flex flex-col-reverse md:flex-row gap-3 md:gap-8 lg:gap-12 items-center lg:w-4/5 mx-auto relative">
+				<img src="/img/shape-service.png" class="hidden lg:block lg:absolute bottom-0 xl:-bottom-5 2xl:-bottom-6 -right-8 sm:-right-24 md:-right-20 xl:-right-10 h-61 2xl:h-60 xl:w-60 2xl:w-94" alt="">
+				<img src="/img/about-hero.jpeg" class="w-full md:w-2/5 h-52 rounded-xl object-cover" alt="">
+				<div class="w-full md:w-3/5 relative z-20">
+					<div class="bg-brand-orange rounded-full px-5 py-1 inline-block min-w-80 sm:min-w-96">
+						<h4 class="text-xl font-medium text-white">06 onderhoud + service</h4>
+					</div>
+					<div class="prose-p:text-black rich-text">
+						<p>Na installatie kan u op het team van VDZ rekenen en kan u blijven genieten van onze onberispelijke service. Bij problemen, defecten en voor het onderhoud kan u 24/7 rekenen op ons team van VDZ. We bieden interessante onderhoudscontracten aan om zo proactief te handelen bij problemen. </p>
+						<p>Zo houden we ook de vinger aan de pols mochten er in de toekomst producten of systemen vernieuwd of veranderd moeten worden.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<Footer />
+</Layout>
