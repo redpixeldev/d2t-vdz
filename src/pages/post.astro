@@ -1,0 +1,43 @@
+---
+import Layout from '@layouts/Layout.astro';
+import Header from '@components/Header.astro';
+import Footer from '@components/Footer.astro';
+---
+
+<Layout title='Post'>
+	<Header />
+		<div class="container py-10 sm:py-12">
+			<h1 class="text-center text-3xl md:text-4xl font-black text-brand-orange pb-8 sm:pb-10">Nieuws</h1>
+			<div class="flex flex-col lg:flex-row gap-9 xl:w-[90%] mx-auto">
+				<div class="sm:w-3/4 mx-auto lg:mx-0 lg:w-1/2">
+					<div>
+						<img src="/img/infrastructure.jpg" class="object-cover" alt="">
+					</div>
+					<div class="flex gap-3 sm:gap-5 mt-3 sm:mt-5">
+						<div class="w-1/3">
+							<img src="/img/infrastructure.jpg" class="h-full object-cover" alt="">
+						</div>
+						<div class="w-1/3">
+							<img src="/img/battery-storage.jpg" class="opacity-50 h-full object-cover" alt="">
+						</div>
+						<div class="w-1/3">
+							<img src="/img/bg-solar-and-wind.jpg" class="opacity-50 h-full object-cover" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="lg:w-1/2 rich-text prose-p:text-black prose-h3:mt-0">
+					<h3>Titel</h3>
+					<p>Ebis ut que dolut lab inimili quatur?</p>
+					<p>Dio que qui a nonem ulparibus mi, oditatia nis eum quos aut incturit rerspis experfe rumquunt, que doles aut fugia sinctat dolorumquam sa velendae nihilicim fugit la sundion sequisqui optaquunt voluptaquae atis ullabor rorpossi cor senisit, cum, volum ut aut rerios modit adi odignihit at utem none ommolorrovid qui rem experun temossum faciet volor autemos pos magniae pelenturias aut et por suntiasitas nonse distian daeptas molupta atur? Tionser spiciis esequi omnimendi doluptam, con consectotas qui dolor santio. Eveles sinulpa </p>
+					<p>Cabo. Il ipsante sciderc hicitibero comnim re voloris andaecestem ident vit occum essit vollaut quaectur, samus atem alitatis at eos aut eaquidit ipid unte nulliqu atatest eniaest otasperem quiam quo </p>
+					<p>et optaqui atusdae. Nequo tem explant fuga. Itam fuga. Ut id quatatas moluptaturia dolorro magnimus aut perum eiciatum faces et harum et audandit aut magnata vel illes sinimil modiam harum quo enet et ut qui nulpa dolorep eruptatis ilique repelis int as pores dolorit, nobis </p>
+					<p>ae eatinci molore odis aut mintustiis et voluptas demporem labo. Udi cuptat inienduci offic te dolupti ossitium harunt, nonsendis vollupient</p>
+				</div>
+			</div>
+			<div class="flex gap-12 w-1/5 mx-auto justify-center pt-8 md:pt-12">
+				<button class="text-brand-orange font-bold btn hover:text-black">VORIGE</button>
+				<button class="text-brand-orange font-bold btn hover:text-black">VOLGENDE</button>
+			</div>
+		</div>
+	<Footer />
+</Layout>

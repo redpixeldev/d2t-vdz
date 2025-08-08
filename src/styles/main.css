@@ -38,6 +38,6 @@
 	}
 
 	.rich-text {
-		@apply prose max-w-full prose-p:text-white prose-p:text-sm prose-h4:font-semibold prose-h4:text-lg prose-h4:text-brand-orange prose-li:text-sm prose-li:text-brand-orange marker:text-brand-orange prose-ul:list-outside prose-ul:list-disc;
+		@apply prose max-w-full prose-h3:text-2xl prose-h3:text-brand-orange prose-p:text-white prose-p:text-sm prose-h4:font-semibold prose-h4:text-lg prose-h4:text-brand-orange prose-li:text-sm prose-li:text-brand-orange marker:text-brand-orange prose-ul:list-outside prose-ul:list-disc;
 	}
 }
