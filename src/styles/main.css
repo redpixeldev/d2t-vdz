@@ -34,10 +34,15 @@
 	}
 
 	[x-cloak] {
-		@apply hidden!;
+		@apply !hidden;
 	}
 
 	.rich-text {
 		@apply prose max-w-full prose-h3:text-2xl prose-h3:text-brand-orange prose-p:text-white prose-p:text-sm prose-h4:font-semibold prose-h4:text-lg prose-h4:text-brand-orange prose-li:text-sm prose-li:text-brand-orange marker:text-brand-orange prose-ul:list-outside prose-ul:list-disc;
 	}
+
+}
+
+.form-select {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3E%3C/svg%3E");
 }
